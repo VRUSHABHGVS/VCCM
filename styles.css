@@ -1,0 +1,125 @@
+ /* container for the popup */
+ .popup {
+    width: 360px;
+    background-color: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+  }
+  
+  /* close button */
+  .close-btn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: none;
+  }
+
+  /* header */
+  .popup h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .popup h2 span {
+    color: #2f4aff; /* blue dot */
+  }
+
+  /* social buttons container */
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  /* social sign-in buttons */
+  .social-btn {
+    width: 48%;
+    padding: 12px;
+    background-color: #2f4aff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* google icon inside button */
+  .social-btn.google svg {
+    margin-left: 8px;
+  }
+
+  /* github icon inside button */
+  .social-btn.github svg {
+    margin-left: 8px;
+  }
+
+  /* OR separator */
+  .or-divider {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 400;
+    color: #333;
+  }
+
+  /* form fields */
+  input[type="email"], input[type="password"], input[type="text"]{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+
+  /* sign in button */
+  .signin-btn {
+    width: 100%;
+    background: linear-gradient(to right, #6c7bff, #3b47ff);
+    color: black;
+    padding: 14px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .signin-btn:hover{
+    background: #f8f8f8;
+    border: 1px solid #3b47ff;
+  }
+
+  .p{
+    font-size: 14px;
+  }
+  
+
+  /* sign up link */
+  .signup-link {
+    text-align: center;
+    font-size: 14px;
+    color: #575757;
+    cursor: pointer;
+  }
+  .signup-link:hover {
+    text-decoration: underline;
+    color: #2f4aff;
+  }
