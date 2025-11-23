@@ -25,6 +25,10 @@ section{
     border: none;
     background: none;
   }
+  .close-btn a {
+    text-decoration: none;
+  }
+
 
   /* header */
   .popup h2 {
@@ -122,4 +126,5 @@ section{
   .signup-link:hover {
     text-decoration: underline;
     color: #2f4aff;
+
   }
